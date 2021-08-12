@@ -14,7 +14,6 @@ int status = WL_IDLE_STATUS;          // the WiFi radio's status
 WiFiUDP Udp;                          //instantiate UDP object
 
 WiFi_Handler::WiFi_Handler() {
-
   init();
 }
 void WiFi_Handler::init() {
